@@ -1,0 +1,18 @@
+# Ignore everything
+/*
+
+# Except these files & folders
+!/src
+!/public
+!/.github
+!tsconfig.json
+!astro.config.mjs
+!package.json
+!.prettierrc
+!.eslintrc.js
+!README.md
+/public/chapters/img
+/public/chapters/fonts
+/public/chapters/fonts
+/public/icon-144x144.png
+/public/icon-48x48.png
