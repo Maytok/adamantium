@@ -18,9 +18,11 @@ const { Content } = await post.render();
 
 const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   .href;
+
+const fTitle = `${title} | El Maytokverso`
 ---
 
-<Layout title={title} author={author} description={description} ogImage={ogUrl}>
+<Layout title={fTitle} author={author} description={description} ogImage={ogUrl}>
   <Header />
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
     <button
